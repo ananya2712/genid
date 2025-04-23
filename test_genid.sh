@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # testid.sh - Test script for genid to verify concurrent operation
+source ./genid.sh
 
 PROCESSES=20          # Number of concurrent processes
 IDS_PER_PROCESS=100   # Number of IDs to generate per process
